@@ -1,0 +1,422 @@
+(kicad_sch (version 20250114) (generator "eeschema") (uuid "fe3669a5-e12f-44c3-bc48-351d754658ac") (paper "A5")
+(title_block (title "OpenTendo RA2 - four-resistor adapter") (rev "A-prototype") (comment 1 "13 x 7 mm; validate physical fit before fabrication"))
+(lib_symbols 
+	(symbol "Device:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Connector_Generic:Conn_01x05"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x05_1_1"
+			(rectangle
+				(start -1.27 6.35)
+				(end 1.27 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 5.207)
+				(end 0 4.953)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(symbol (lib_id "Device:R") (at 76.2 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "df44e370-a784-48a8-a9e7-d9260dfefd8d")(property "Reference" "R1" (at 81.28 73.66 0) (effects (font (size 1.27 1.27))))(property "Value" "6.8k" (at 82.55 77.47 0) (effects (font (size 1.27 1.27))))(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 76.2 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "MPN" "RC0805FR-076K8L" (at 76.2 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-076K8L" (at 76.2 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "6028221b-deb3-444f-a2d2-14eb79961a91"))(pin "2" (uuid "3e629bf0-9e8c-4075-ac7c-28d3c9dd97e6"))(instances (project "RA2-modern-adapter" (path "/fe3669a5-e12f-44c3-bc48-351d754658ac" (reference "R1") (unit 1)))))
+(wire (pts (xy 76.2 72.39) (xy 76.2 68.58)) (stroke (width 0) (type default)) (uuid "c69dbe91-feec-4b01-8584-1f5846af8054"))
+(label "VCC" (at 76.2 68.58 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "225c4247-c565-4291-8e97-418ade257b8b"))
+(wire (pts (xy 76.2 80.01) (xy 76.2 85.09)) (stroke (width 0) (type default)) (uuid "a005731d-6362-476e-adb2-24ef8d47a272"))
+(label "OUT-0" (at 76.2 85.09 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "612b9c0d-95b3-48bb-84bb-c5bd9cf281d9"))
+(symbol (lib_id "Device:R") (at 96.52000000000001 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "8a92d8d5-00e7-4ca0-9c46-5fff477858fe")(property "Reference" "R2" (at 101.60000000000001 73.66 0) (effects (font (size 1.27 1.27))))(property "Value" "6.8k" (at 102.87 77.47 0) (effects (font (size 1.27 1.27))))(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 96.52000000000001 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "MPN" "RC0805FR-076K8L" (at 96.52000000000001 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-076K8L" (at 96.52000000000001 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "2ec6581b-0687-417a-9277-2c4f4fcdf1a2"))(pin "2" (uuid "22fd872b-c140-408d-8de0-3c7f6384cf4f"))(instances (project "RA2-modern-adapter" (path "/fe3669a5-e12f-44c3-bc48-351d754658ac" (reference "R2") (unit 1)))))
+(wire (pts (xy 96.52000000000001 72.39) (xy 96.52000000000001 68.58)) (stroke (width 0) (type default)) (uuid "da48f231-7b1b-417e-9d02-0c00b8f25b00"))
+(label "VCC" (at 96.52000000000001 68.58 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "02bf1a04-b8e3-48be-afe2-13bdafa28768"))
+(wire (pts (xy 96.52000000000001 80.01) (xy 96.52000000000001 85.09)) (stroke (width 0) (type default)) (uuid "198f4f2d-049d-404d-bfb4-3b3d594a5ca4"))
+(label "PPU-A13" (at 96.52000000000001 85.09 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5648510b-b024-41b2-8ab5-d7caabd89481"))
+(symbol (lib_id "Device:R") (at 116.84 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "80ea51b3-54ec-473f-afd7-6ac2599e1b73")(property "Reference" "R3" (at 121.92 73.66 0) (effects (font (size 1.27 1.27))))(property "Value" "6.8k" (at 123.19 77.47 0) (effects (font (size 1.27 1.27))))(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 116.84 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "MPN" "RC0805FR-076K8L" (at 116.84 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-076K8L" (at 116.84 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "6a2d63c4-b024-4f37-8555-2917e51e8e7d"))(pin "2" (uuid "b4394c10-128d-4683-b986-9044561f844b"))(instances (project "RA2-modern-adapter" (path "/fe3669a5-e12f-44c3-bc48-351d754658ac" (reference "R3") (unit 1)))))
+(wire (pts (xy 116.84 72.39) (xy 116.84 68.58)) (stroke (width 0) (type default)) (uuid "10ee6d49-816b-4a2d-9156-9222e363bdce"))
+(label "VCC" (at 116.84 68.58 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6aff58d9-fc46-4095-9643-e545dcc8e13c"))
+(wire (pts (xy 116.84 80.01) (xy 116.84 85.09)) (stroke (width 0) (type default)) (uuid "3f2aa3ad-1e64-4e57-963a-f2ca93b688a4"))
+(label "~{OE1}" (at 116.84 85.09 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d29ea49e-42df-42ae-9295-9c60616ffcc5"))
+(symbol (lib_id "Device:R") (at 137.16 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "24fe09d7-8a04-491b-843e-98be7fe0e221")(property "Reference" "R4" (at 142.24 73.66 0) (effects (font (size 1.27 1.27))))(property "Value" "6.8k" (at 143.51 77.47 0) (effects (font (size 1.27 1.27))))(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 137.16 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "MPN" "RC0805FR-076K8L" (at 137.16 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-076K8L" (at 137.16 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "28ae7b8a-ca59-48aa-ba3a-c27511bf8e93"))(pin "2" (uuid "84c95e24-5e8c-421f-b54b-09362df6bce4"))(instances (project "RA2-modern-adapter" (path "/fe3669a5-e12f-44c3-bc48-351d754658ac" (reference "R4") (unit 1)))))
+(wire (pts (xy 137.16 72.39) (xy 137.16 68.58)) (stroke (width 0) (type default)) (uuid "915d2490-a0f8-4296-a16d-3ee16da7b39e"))
+(label "VCC" (at 137.16 68.58 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "98125f3f-1f4a-46f8-8175-bd6a2fab4344"))
+(wire (pts (xy 137.16 80.01) (xy 137.16 85.09)) (stroke (width 0) (type default)) (uuid "7ae535a4-8b2c-4657-9580-b45bfe5b407e"))
+(label "~{OE2}" (at 137.16 85.09 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2967665c-a356-4b05-bd67-5cf5b853a9f2"))
+(symbol (lib_id "Connector_Generic:Conn_01x05") (at 76.2 111.76 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "f546fd2a-6e07-4ffe-89d0-dd2955cb1879")(property "Reference" "J1" (at 81.28 109.22 0) (effects (font (size 1.27 1.27))))(property "Value" "RA2_WIRE_LEADS" (at 82.55 113.03 0) (effects (font (size 1.27 1.27))))(property "Footprint" "RA2_Adapter:SIP5_WireLeads_P2.54mm" (at 76.2 111.76 0) (effects (font (size 1.27 1.27)) (hide yes)))(pin "1" (uuid "445af005-606c-4ce5-bcd1-f91577eaa9cc"))(pin "2" (uuid "44fc697b-3f37-4916-a5da-a019bc7356ff"))(pin "3" (uuid "0541658c-73bc-41b4-9012-2648722cac8b"))(pin "4" (uuid "91b8f395-1b0b-42b2-9e6c-c6dd1ff805a5"))(pin "5" (uuid "1f4fa75e-4ad1-41b6-bf7e-18e24892dd47"))(instances (project "RA2-modern-adapter" (path "/fe3669a5-e12f-44c3-bc48-351d754658ac" (reference "J1") (unit 1)))))
+(wire (pts (xy 55.88 106.68) (xy 71.12 106.68)) (stroke (width 0) (type default)) (uuid "715fc666-8730-4a3c-b277-8ee71b152d19"))
+(label "VCC" (at 55.88 106.68 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "945f6798-d3c2-4adf-991d-c2e113c2e8c8"))
+(wire (pts (xy 55.88 109.22000000000001) (xy 71.12 109.22000000000001)) (stroke (width 0) (type default)) (uuid "23747bdc-75e8-4bd8-aff6-3f707b5fbed9"))
+(label "OUT-0" (at 55.88 109.22000000000001 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "84f0b827-75cb-427c-a253-e1bf5c4c2cca"))
+(wire (pts (xy 55.88 111.76) (xy 71.12 111.76)) (stroke (width 0) (type default)) (uuid "a43f2bb9-8297-4078-8bfa-8e63659e91b8"))
+(label "PPU-A13" (at 55.88 111.76 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "977e2b17-87b7-49c7-b6d4-7998244a7cf1"))
+(wire (pts (xy 55.88 114.30000000000001) (xy 71.12 114.30000000000001)) (stroke (width 0) (type default)) (uuid "8718cab3-4cf5-495a-a6ae-db0aaaed2371"))
+(label "~{OE1}" (at 55.88 114.30000000000001 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f96b8402-12e4-4c79-b920-dc330e61fbf5"))
+(wire (pts (xy 55.88 116.84) (xy 71.12 116.84)) (stroke (width 0) (type default)) (uuid "7cd6fe0d-8300-4ffc-a6b2-516c06b00466"))
+(label "~{OE2}" (at 55.88 116.84 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ccb4125d-5ab5-40e2-8104-2244a26581b5"))
+(text "Prototype: 4 x 6.8k, 1%, 0805. Pin 1 = VCC/common.\nFit with 0.5 mm round wire leads, not 0.64 mm square headers.\nElectrical pinout checked against upstream schematic; mechanical fit unverified." (at 111.76 134.62 0) (effects (font (size 1.27 1.27))) (uuid "d5be95d4-ee20-48cd-a746-1842af464075"))
+(sheet_instances (path "/" (page "1")))
+(embedded_fonts no))
