@@ -9,6 +9,11 @@
 </p>
 
 # Open 'Tendo
+
+This fork develops modern component substitutions. The motherboard now replaces
+RA2 with four 0805 resistors (R20–R23). See [RA2 modernization](RA2-MODERNIZATION.md)
+for the change, validation results, and prototype limitations. Open the board in
+KiCad 10.
 An Open-Source HardWare (OSHW) recreation of the original 1985 Front-Loading NES motherboard.
 
 ## Note on RGB and HDMI

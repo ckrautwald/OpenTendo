@@ -1,0 +1,36 @@
+{
+  "base_commit": "4c21873",
+  "replacement": {
+    "RA2": [
+      "R20",
+      "R21",
+      "R22",
+      "R23"
+    ],
+    "mpn": "RC0805FR-076K8L",
+    "value_ohms": 6800,
+    "tolerance_percent": 1,
+    "package": "0805"
+  },
+  "netlist_equivalence": {
+    "match": true,
+    "net_count": 129
+  },
+  "pcb_drc": {
+    "before": 113,
+    "after": 109,
+    "new_findings": 0,
+    "unconnected_before": 0,
+    "unconnected_after": 0
+  },
+  "schematic_erc": {
+    "before": 74,
+    "after": 74,
+    "new_findings": 0
+  },
+  "schematic_parity": {
+    "existing_extra_footprint": "a07533d1-7029-49de-9667-9f57e5dbde4e",
+    "count": 1
+  },
+  "bench_tested": false
+}

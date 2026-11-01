@@ -1,0 +1,1315 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-01T00:07:36",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/d10b47ec-15d7-4098-8a2a-c0827f933fba",
+            "violations": [
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol DA1 Pin 1 [Output, Line]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 24.13
+                            },
+                            "uuid": "4a9adab6-21e7-44fd-871d-8357cc10cc05"
+                        },
+                        {
+                            "description": "Symbol DA2 Pin 1 [Output, Line]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 49.53
+                            },
+                            "uuid": "d61ba4a1-b43e-4af3-90ec-0994a39a9313"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol DA2 Pin 1 [Output, Line]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 49.53
+                            },
+                            "uuid": "d61ba4a1-b43e-4af3-90ec-0994a39a9313"
+                        },
+                        {
+                            "description": "Symbol U6 Pin 36 [~{OE1}, Output, Line]",
+                            "pos": {
+                                "x": 254.0,
+                                "y": 38.1
+                            },
+                            "uuid": "497d022a-d0bb-4f58-a63b-0282f505afb8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol DA1 Pin 2 [Output, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 24.13
+                            },
+                            "uuid": "cf3529c5-9605-457a-8fd1-b6982e50892b"
+                        },
+                        {
+                            "description": "Symbol DA2 Pin 2 [Output, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 49.53
+                            },
+                            "uuid": "4e7ad2ca-c8a6-496e-90f2-83d2a10fcda2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol DA2 Pin 2 [Output, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 49.53
+                            },
+                            "uuid": "4e7ad2ca-c8a6-496e-90f2-83d2a10fcda2"
+                        },
+                        {
+                            "description": "Symbol DA3 Pin 3 [Output, Line]",
+                            "pos": {
+                                "x": 104.14,
+                                "y": 67.31
+                            },
+                            "uuid": "581d9937-7f2d-4525-9d5c-51425793e84b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol DA3 Pin 2 [Output, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 67.31
+                            },
+                            "uuid": "f5a1a2e0-dfb8-44e1-8825-fe7ca9a8356b"
+                        },
+                        {
+                            "description": "Symbol DA4 Pin 2 [Output, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 92.71
+                            },
+                            "uuid": "37694569-4b20-4db7-b453-df62b55f5f3d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol DA4 Pin 2 [Output, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 92.71
+                            },
+                            "uuid": "37694569-4b20-4db7-b453-df62b55f5f3d"
+                        },
+                        {
+                            "description": "Symbol U6 Pin 35 [~{OE2}, Output, Line]",
+                            "pos": {
+                                "x": 254.0,
+                                "y": 40.64
+                            },
+                            "uuid": "d3494799-94b0-4f4b-a6e0-f156b9ca8840"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol DA1 Pin 3 [Output, Line]",
+                            "pos": {
+                                "x": 104.14,
+                                "y": 24.13
+                            },
+                            "uuid": "3bfeb513-ebd1-494b-8041-b70fe23a9e64"
+                        },
+                        {
+                            "description": "Symbol DA2 Pin 3 [Output, Line]",
+                            "pos": {
+                                "x": 104.14,
+                                "y": 49.53
+                            },
+                            "uuid": "d5091024-55c8-46d8-951b-9f65030c7231"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol DA3 Pin 3 [Output, Line]",
+                            "pos": {
+                                "x": 104.14,
+                                "y": 67.31
+                            },
+                            "uuid": "581d9937-7f2d-4525-9d5c-51425793e84b"
+                        },
+                        {
+                            "description": "Symbol DA4 Pin 3 [Output, Line]",
+                            "pos": {
+                                "x": 104.14,
+                                "y": 92.71
+                            },
+                            "uuid": "568b9a97-e869-4355-8fbf-f59ad72714fc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol DA4 Pin 3 [Output, Line]",
+                            "pos": {
+                                "x": 104.14,
+                                "y": 92.71
+                            },
+                            "uuid": "568b9a97-e869-4355-8fbf-f59ad72714fc"
+                        },
+                        {
+                            "description": "Symbol U6 Pin 39 [OUT_0, Output, Line]",
+                            "pos": {
+                                "x": 254.0,
+                                "y": 30.48
+                            },
+                            "uuid": "beec0cbb-2829-4149-aa81-a3061a05eca5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol DA1 Pin 5 [Output, Line]",
+                            "pos": {
+                                "x": 111.76,
+                                "y": 24.13
+                            },
+                            "uuid": "47c9e1c3-091d-4045-95a5-1245aef6c15f"
+                        },
+                        {
+                            "description": "Symbol DA2 Pin 5 [Output, Line]",
+                            "pos": {
+                                "x": 111.76,
+                                "y": 49.53
+                            },
+                            "uuid": "0afc695e-0f6d-4e24-a322-6a0328b7d8af"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol DA3 Pin 5 [Output, Line]",
+                            "pos": {
+                                "x": 111.76,
+                                "y": 67.31
+                            },
+                            "uuid": "5692760e-d7d7-46eb-ae83-270379f52286"
+                        },
+                        {
+                            "description": "Symbol DA4 Pin 5 [Output, Line]",
+                            "pos": {
+                                "x": 111.76,
+                                "y": 92.71
+                            },
+                            "uuid": "99b356c2-9ef6-426a-9f01-fc8edd0853fa"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol DA1 Pin 6 [Output, Line]",
+                            "pos": {
+                                "x": 115.57,
+                                "y": 24.13
+                            },
+                            "uuid": "6fce25f5-4858-4e7f-91f1-b60cf4b50f8c"
+                        },
+                        {
+                            "description": "Symbol DA2 Pin 6 [Output, Line]",
+                            "pos": {
+                                "x": 115.57,
+                                "y": 49.53
+                            },
+                            "uuid": "6f9fffab-8790-448f-a810-84ef574a66a6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol DA3 Pin 6 [Output, Line]",
+                            "pos": {
+                                "x": 115.57,
+                                "y": 67.31
+                            },
+                            "uuid": "8df9210f-4cb6-49dc-a6fa-e56e646e1421"
+                        },
+                        {
+                            "description": "Symbol DA4 Pin 6 [Output, Line]",
+                            "pos": {
+                                "x": 115.57,
+                                "y": 92.71
+                            },
+                            "uuid": "eab309ef-5e67-4001-9741-3cb7baa55638"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol DA1 Pin 7 [Output, Line]",
+                            "pos": {
+                                "x": 119.38,
+                                "y": 24.13
+                            },
+                            "uuid": "0b23e656-a4e8-48cf-85e5-e5f152e43019"
+                        },
+                        {
+                            "description": "Symbol DA3 Pin 1 [Output, Line]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 67.31
+                            },
+                            "uuid": "ed9db980-41af-4c00-bd61-a8ee1aff1ddb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol DA2 Pin 7 [Output, Line]",
+                            "pos": {
+                                "x": 119.38,
+                                "y": 49.53
+                            },
+                            "uuid": "05477af1-c6a4-4dfa-86c8-9553fb9c5fab"
+                        },
+                        {
+                            "description": "Symbol DA4 Pin 1 [Output, Line]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 92.71
+                            },
+                            "uuid": "3b03ef10-62ea-4e59-adc4-39c764cd10ec"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol DA3 Pin 7 [Output, Line]",
+                            "pos": {
+                                "x": 119.38,
+                                "y": 67.31
+                            },
+                            "uuid": "109b47c3-c848-4fd1-b9e9-b3f3e6140756"
+                        },
+                        {
+                            "description": "Symbol DA4 Pin 7 [Output, Line]",
+                            "pos": {
+                                "x": 119.38,
+                                "y": 92.71
+                            },
+                            "uuid": "bfd6d998-f8ae-443c-9f13-37fff4b6fa4f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U7 Pin 3 [~{1Y}, Output, Line]",
+                            "pos": {
+                                "x": 180.34,
+                                "y": 30.48
+                            },
+                            "uuid": "e3552957-7404-4c8d-818f-518c45aa64e6"
+                        },
+                        {
+                            "description": "Symbol U8 Pin 3 [~{1Y}, Output, Line]",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 59.69
+                            },
+                            "uuid": "0a3c0ec4-5e17-4d3a-9c5c-c610ba26c790"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U7 Pin 5 [~{2Y}, Output, Line]",
+                            "pos": {
+                                "x": 180.34,
+                                "y": 35.56
+                            },
+                            "uuid": "81e79dfb-5288-4945-826b-c0f3ba42916a"
+                        },
+                        {
+                            "description": "Symbol U8 Pin 5 [~{2Y}, Output, Line]",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 64.77
+                            },
+                            "uuid": "edf3e405-8db8-4379-9ae2-5cca7b40c83e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U7 Pin 13 [~{6Y}, Output, Line]",
+                            "pos": {
+                                "x": 200.66,
+                                "y": 33.02
+                            },
+                            "uuid": "0c2bdbdd-d25c-4e97-9ee8-40f56f4bcbd0"
+                        },
+                        {
+                            "description": "Symbol U8 Pin 13 [~{6Y}, Output, Line]",
+                            "pos": {
+                                "x": 199.39,
+                                "y": 62.23
+                            },
+                            "uuid": "bbeb3f28-e020-4255-9940-d6ac581d5417"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U7 Pin 11 [~{5Y}, Output, Line]",
+                            "pos": {
+                                "x": 200.66,
+                                "y": 38.1
+                            },
+                            "uuid": "978f6b3d-3831-4d76-beee-0ee506db0958"
+                        },
+                        {
+                            "description": "Symbol U8 Pin 11 [~{5Y}, Output, Line]",
+                            "pos": {
+                                "x": 199.39,
+                                "y": 67.31
+                            },
+                            "uuid": "63a08dab-bd8e-40f3-a2f1-a1c82917136b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U7 Pin 9 [~{4Y}, Output, Line]",
+                            "pos": {
+                                "x": 200.66,
+                                "y": 43.18
+                            },
+                            "uuid": "01b0d76c-2619-48ce-a706-39600b97669e"
+                        },
+                        {
+                            "description": "Symbol U8 Pin 9 [~{4Y}, Output, Line]",
+                            "pos": {
+                                "x": 199.39,
+                                "y": 72.39
+                            },
+                            "uuid": "30fa64ef-2f73-4ca8-b556-fae135367d99"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 16 [VCC, Power input, Line]",
+                            "pos": {
+                                "x": 283.21,
+                                "y": 33.02
+                            },
+                            "uuid": "26d8dddd-abb6-4cfa-b904-af90ae657c95"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 8 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 308.61,
+                                "y": 33.02
+                            },
+                            "uuid": "9d8abeb2-de94-4e2b-aec9-dbd1e03e7025"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Symbol 'Q_NPN_ECB' not found in symbol library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol Q3 [Q_NPN_ECB]",
+                            "pos": {
+                                "x": 39.37,
+                                "y": 191.77
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005da0d425"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C44 [C_Small]",
+                            "pos": {
+                                "x": 45.72,
+                                "y": 217.17
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005e841a82"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C42 [C_Small]",
+                            "pos": {
+                                "x": 46.99,
+                                "y": 198.12
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005dbf1d97"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol #C47 [C_Small]",
+                            "pos": {
+                                "x": 64.77,
+                                "y": 49.53
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005ddf1db2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol #C48 [C_Small]",
+                            "pos": {
+                                "x": 64.77,
+                                "y": 92.71
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005f41bbc2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C41 [C_Small]",
+                            "pos": {
+                                "x": 66.04,
+                                "y": 201.93
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005d9a90f1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C21 [C_Small]",
+                            "pos": {
+                                "x": 68.58,
+                                "y": 146.05
+                            },
+                            "uuid": "00000000-0000-0000-0000-000060c01e8c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C43 [C_Small]",
+                            "pos": {
+                                "x": 72.39,
+                                "y": 223.52
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005e703511"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'Q_NPN_ECB' not found in symbol library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol Q2 [Q_NPN_ECB]",
+                            "pos": {
+                                "x": 77.47,
+                                "y": 191.77
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005d9ab2f6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C20 [C_Small]",
+                            "pos": {
+                                "x": 78.74,
+                                "y": 125.73
+                            },
+                            "uuid": "00000000-0000-0000-0000-00006060aba1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C22 [C_Small]",
+                            "pos": {
+                                "x": 86.36,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000642509a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C45 [C_Small]",
+                            "pos": {
+                                "x": 90.17,
+                                "y": 209.55
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005e429bdb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C39 [C_Small]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-000064394aa3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C4 [C_Small]",
+                            "pos": {
+                                "x": 99.06,
+                                "y": 137.16
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005dd404cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C32 [C_Small]",
+                            "pos": {
+                                "x": 106.68,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-000064436ad3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol BC1 [C_Small]",
+                            "pos": {
+                                "x": 119.38,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000644d8f8d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C6 [C_Small]",
+                            "pos": {
+                                "x": 123.19,
+                                "y": 180.34
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005fc5eb8e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C33 [C_Small]",
+                            "pos": {
+                                "x": 124.46,
+                                "y": 48.26
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005ecec324"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C27 [C_Small]",
+                            "pos": {
+                                "x": 124.46,
+                                "y": 91.44
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005f41bc32"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C34 [C_Small]",
+                            "pos": {
+                                "x": 129.54,
+                                "y": 48.26
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005ed808ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C28 [C_Small]",
+                            "pos": {
+                                "x": 129.54,
+                                "y": 91.44
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005f41bc22"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C7 [C_Small]",
+                            "pos": {
+                                "x": 130.81,
+                                "y": 180.34
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005fdff045"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol BC2 [C_Small]",
+                            "pos": {
+                                "x": 132.08,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000648adce5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C35 [C_Small]",
+                            "pos": {
+                                "x": 134.62,
+                                "y": 48.26
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005edb040f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C29 [C_Small]",
+                            "pos": {
+                                "x": 134.62,
+                                "y": 91.44
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005f41bc1c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C36 [C_Small]",
+                            "pos": {
+                                "x": 139.7,
+                                "y": 48.26
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005eddffa6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C30 [C_Small]",
+                            "pos": {
+                                "x": 139.7,
+                                "y": 91.44
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005f41bc16"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C26 [C_Small]",
+                            "pos": {
+                                "x": 142.24,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000649f40ff"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C37 [C_Small]",
+                            "pos": {
+                                "x": 144.78,
+                                "y": 48.26
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005ee0fc17"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C31 [C_Small]",
+                            "pos": {
+                                "x": 144.78,
+                                "y": 91.44
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005f41bc10"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'LED' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol #LED1 [LED]",
+                            "pos": {
+                                "x": 151.13,
+                                "y": 222.25
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000631b82c9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C40 [C_Small]",
+                            "pos": {
+                                "x": 152.4,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-000064a97a46"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C8 [C_Small]",
+                            "pos": {
+                                "x": 158.75,
+                                "y": 139.7
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005e1eee3d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C25 [C_Small]",
+                            "pos": {
+                                "x": 162.56,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-000064b3ba85"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C13 [C_Small]",
+                            "pos": {
+                                "x": 172.72,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-000064be03aa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C18 [C_Small]",
+                            "pos": {
+                                "x": 173.99,
+                                "y": 195.58
+                            },
+                            "uuid": "00000000-0000-0000-0000-000060b667a2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C17 [C_Small]",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 195.58
+                            },
+                            "uuid": "00000000-0000-0000-0000-000060b667a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C38 [C_Small]",
+                            "pos": {
+                                "x": 182.88,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-000064c85051"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C15 [C_Small]",
+                            "pos": {
+                                "x": 193.04,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-000064d2aa21"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C11 [C_Small]",
+                            "pos": {
+                                "x": 194.31,
+                                "y": 203.2
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000616302dc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C14 [C_Small]",
+                            "pos": {
+                                "x": 199.39,
+                                "y": 203.2
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000616302e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C19 [C_Small]",
+                            "pos": {
+                                "x": 203.2,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-000064dd0059"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C24 [C_Small]",
+                            "pos": {
+                                "x": 213.36,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-000064e75fd8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C46 [C_Small]",
+                            "pos": {
+                                "x": 223.52,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-000064f1c4e7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C16 [C_Small]",
+                            "pos": {
+                                "x": 233.68,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-000064fc33b3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C2 [C_Small]",
+                            "pos": {
+                                "x": 254.0,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000651b9b90"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C3 [C_Small]",
+                            "pos": {
+                                "x": 264.16,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-000065657ce7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'Q_PNP_ECB' not found in symbol library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol Q1 [Q_PNP_ECB]",
+                            "pos": {
+                                "x": 267.97,
+                                "y": 215.9
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005d809e07"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C10 [C_Small]",
+                            "pos": {
+                                "x": 274.32,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000656ffd99"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C12 [C_Small]",
+                            "pos": {
+                                "x": 284.48,
+                                "y": 247.65
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000657a85fa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'EXP-CON' doesn't match copy in library 'Motherboard'",
+                    "items": [
+                        {
+                            "description": "Symbol P2 [EXP-CON]",
+                            "pos": {
+                                "x": 361.95,
+                                "y": 171.45
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005d833a72"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                }
+            ]
+        }
+    ],
+    "source": "Motherboard.kicad_sch"
+}

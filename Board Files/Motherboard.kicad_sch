@@ -33940,84 +33940,25 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R_Network04")
-		(at 207.01 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000604ad795")
-		(property "Reference" "RA2"
-			(at 205.74 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4 x 6.8K"
-			(at 205.74 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP5"
-			(at 213.995 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 207.01 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04500916-943d-4a6d-ad85-eef939cde187")
-		)
-		(pin "2"
-			(uuid "500c95b2-2a4a-4375-89c4-9a3183204b23")
-		)
-		(pin "3"
-			(uuid "b081d98b-8b4f-4989-9a22-754d0a4f65b6")
-		)
-		(pin "4"
-			(uuid "1e0c882d-7a58-43ce-afbf-eccca2ee8967")
-		)
-		(pin "5"
-			(uuid "c43cf6ac-1f67-4b99-bc85-6a57664c189b")
-		)
-		(instances
-			(project "Motherboard"
-				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "RA2")
-					(unit 1)
-				)
-			)
-		)
-	)
+	(symbol (lib_id "Device:R") (at 201.93 88.9 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "7f3c0dcb-4f23-4a11-a884-9ff083aa365f")(property "Reference" "R20" (at 202.98 88.9 90) (effects (font (size 0.9 0.9))))(property "Value" "6.8k" (at 201.93 88.9 0) (effects (font (size 0.9 0.9)) (hide yes)))(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 201.93 88.9 0) (effects (font (size 0.9 0.9)) (hide yes)))(property "MPN" "RC0805FR-076K8L" (at 201.93 88.9 0) (effects (font (size 0.9 0.9)) (hide yes)))(pin "1" (uuid "33007324-a070-49ab-94ab-49a199bd8c90"))(pin "2" (uuid "1206895b-0ace-4c68-8943-4149baeaef93"))(instances (project "Motherboard" (path "/d10b47ec-15d7-4098-8a2a-c0827f933fba" (reference "R20") (unit 1)))))
+	(wire (pts (xy 201.93 92.71) (xy 201.93 93.98)) (stroke (width 0) (type default)) (uuid "37d08a66-743c-40da-9d4d-6c83447cb6b3"))
+	(wire (pts (xy 201.93 85.09) (xy 201.93 83.82)) (stroke (width 0) (type default)) (uuid "7fb20206-36b0-4436-ac87-f413acbd2ff1"))
+	(junction (at 201.93 83.82) (diameter 0) (color 0 0 0 0) (uuid "921d69a6-6985-405d-9ccc-68185e667530"))
+	(symbol (lib_id "Device:R") (at 204.47 88.9 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "95b9e9b4-c8d1-46e9-868d-2ce56062a63c")(property "Reference" "R21" (at 205.52 88.9 90) (effects (font (size 0.9 0.9))))(property "Value" "6.8k" (at 204.47 88.9 0) (effects (font (size 0.9 0.9)) (hide yes)))(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 204.47 88.9 0) (effects (font (size 0.9 0.9)) (hide yes)))(property "MPN" "RC0805FR-076K8L" (at 204.47 88.9 0) (effects (font (size 0.9 0.9)) (hide yes)))(pin "1" (uuid "f20e82e0-1770-49a4-b895-a7a8a987f64d"))(pin "2" (uuid "65fcaf7b-eb8b-403c-9a24-7ad5c85c3282"))(instances (project "Motherboard" (path "/d10b47ec-15d7-4098-8a2a-c0827f933fba" (reference "R21") (unit 1)))))
+	(wire (pts (xy 204.47 92.71) (xy 204.47 93.98)) (stroke (width 0) (type default)) (uuid "a2502c75-31ee-458e-94ab-07faab291069"))
+	(wire (pts (xy 204.47 85.09) (xy 204.47 83.82)) (stroke (width 0) (type default)) (uuid "886c4742-4727-449e-b0fa-64c1fa5445a7"))
+	(wire (pts (xy 201.93 83.82) (xy 204.47 83.82)) (stroke (width 0) (type default)) (uuid "26598683-2627-48ac-988b-b3db46fd2de5"))
+	(junction (at 204.47 83.82) (diameter 0) (color 0 0 0 0) (uuid "b3b1dd70-6864-4ea0-9258-55d849c66ffd"))
+	(symbol (lib_id "Device:R") (at 207.01 88.9 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "84db05d3-9c14-4ccc-9e37-dd19f0e037d3")(property "Reference" "R22" (at 208.06 88.9 90) (effects (font (size 0.9 0.9))))(property "Value" "6.8k" (at 207.01 88.9 0) (effects (font (size 0.9 0.9)) (hide yes)))(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 207.01 88.9 0) (effects (font (size 0.9 0.9)) (hide yes)))(property "MPN" "RC0805FR-076K8L" (at 207.01 88.9 0) (effects (font (size 0.9 0.9)) (hide yes)))(pin "1" (uuid "27ee8442-25e8-45fb-bbfd-36b51581325d"))(pin "2" (uuid "43d7c543-7612-4557-8666-2dcfa1a34e7b"))(instances (project "Motherboard" (path "/d10b47ec-15d7-4098-8a2a-c0827f933fba" (reference "R22") (unit 1)))))
+	(wire (pts (xy 207.01 92.71) (xy 207.01 93.98)) (stroke (width 0) (type default)) (uuid "299a6f81-239a-470a-935e-5b71eb91b23a"))
+	(wire (pts (xy 207.01 85.09) (xy 207.01 83.82)) (stroke (width 0) (type default)) (uuid "2e90ad29-53d7-4309-99ac-13a91d7bb71b"))
+	(wire (pts (xy 204.47 83.82) (xy 207.01 83.82)) (stroke (width 0) (type default)) (uuid "46823e91-a8a2-4fe4-a74b-8ccc2040a538"))
+	(junction (at 207.01 83.82) (diameter 0) (color 0 0 0 0) (uuid "11b935e8-9f00-40cb-b57b-44ab1f4a0dd2"))
+	(symbol (lib_id "Device:R") (at 209.55 88.9 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "e6c884f8-d9d5-4a17-a4b5-7dd57d90bc98")(property "Reference" "R23" (at 210.6 88.9 90) (effects (font (size 0.9 0.9))))(property "Value" "6.8k" (at 209.55 88.9 0) (effects (font (size 0.9 0.9)) (hide yes)))(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 209.55 88.9 0) (effects (font (size 0.9 0.9)) (hide yes)))(property "MPN" "RC0805FR-076K8L" (at 209.55 88.9 0) (effects (font (size 0.9 0.9)) (hide yes)))(pin "1" (uuid "f9387ba9-a2fc-412e-93ae-e3970713bf2c"))(pin "2" (uuid "83d7cdd9-d337-47cb-b999-71e9073748d0"))(instances (project "Motherboard" (path "/d10b47ec-15d7-4098-8a2a-c0827f933fba" (reference "R23") (unit 1)))))
+	(wire (pts (xy 209.55 92.71) (xy 209.55 93.98)) (stroke (width 0) (type default)) (uuid "68751646-f2da-4b76-bbdf-407c9a991c27"))
+	(wire (pts (xy 209.55 85.09) (xy 209.55 83.82)) (stroke (width 0) (type default)) (uuid "c2736f0b-cbe1-40da-b665-cf47bc59dc67"))
+	(wire (pts (xy 207.01 83.82) (xy 209.55 83.82)) (stroke (width 0) (type default)) (uuid "b8ef0425-b4e3-4fdd-8dd7-3eee9c3951c0"))
+	(text "R20-R23: 4 x 6.8k, 1%, 0805 (replaces RA2)" (at 208.28 78.74 0) (effects (font (size 1 1))) (uuid "5e5106a9-a179-4c9c-9676-ac1d40f36edc"))
 	(symbol
 		(lib_id "74xx:74LS04")
 		(at 78.74 134.62 0)
